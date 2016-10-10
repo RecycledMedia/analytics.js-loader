@@ -20,6 +20,7 @@ function load(opts) {
 
   // A list of the methods in Analytics.js to stub.
   analytics.methods = [
+    'setAnonymousId',
     'trackSubmit',
     'trackClick',
     'trackLink',
